@@ -31,7 +31,7 @@ menu:
 # --------------------------------------
 
 code_blocks:
-  theme: mac
+  theme: darker
   macStyle: true
   height_limit: 450
   word_wrap: true
