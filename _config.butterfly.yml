@@ -49,10 +49,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 avatar:
-  img: https://avatars.githubusercontent.com/u/SkychenLee
+  img: https://github.com/SkychenLee.png
   effect: true
 
 disable_top_img: false
