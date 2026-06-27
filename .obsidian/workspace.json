@@ -182,17 +182,23 @@
       "bases:新建数据库": false
     }
   },
-  "active": "32ae7b426690c42c",
+  "active": "70771ed5e4a55e5f",
   "lastOpenFiles": [
-    "source/_posts/java/jvm-gc-tuning.md",
-    "source/categories/index.md",
-    "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+    "scaffolds/draft.md",
+    "public/categories/研发工具笔记",
+    "scaffolds/post.md",
+    "scaffolds/page.md",
     "source/_posts/ai-infra/distributed-training-intro.md",
+    "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+    "source/categories/index.md",
+    "README.md",
+    "source/develop",
+    "source/projects/index.md",
+    "source/tags/index.md",
     "source/about/index.md",
+    "source/_posts/java/jvm-gc-tuning.md",
     "source/_posts/研发工具笔记",
     "未命名",
-    "source/projects/index.md",
-    "source/friends/index.md",
-    "source/tags/index.md"
+    "source/friends/index.md"
   ]
 }
