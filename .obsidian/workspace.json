@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "5862dbde560bb5f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "48054cb0fbd827bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32ae7b426690c42c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "git 常用场景命令集合"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1d8f23111b40c46",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9ffa2c7283c76fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70771ed5e4a55e5f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "3516747b75a8cb41",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e57dd55e52e64f84",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d7a0cd4e90cf961",
+    "type": "split",
+    "children": [
+      {
+        "id": "4de9ab6d454109c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54a98718bc87aaad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "git 常用场景命令集合 的反向链接列表"
+            }
+          },
+          {
+            "id": "a6688fa0d208214d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "git 常用场景命令集合 的出链列表"
+            }
+          },
+          {
+            "id": "1cee8e68d6bdd06f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f6fcaf50ab257fb0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "58abf9ec8e8e6b3f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "git 常用场景命令集合 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "32ae7b426690c42c",
+  "lastOpenFiles": [
+    "source/_posts/java/jvm-gc-tuning.md",
+    "source/categories/index.md",
+    "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+    "source/_posts/ai-infra/distributed-training-intro.md",
+    "source/about/index.md",
+    "source/_posts/研发工具笔记",
+    "未命名",
+    "source/projects/index.md",
+    "source/friends/index.md",
+    "source/tags/index.md"
+  ]
+}
