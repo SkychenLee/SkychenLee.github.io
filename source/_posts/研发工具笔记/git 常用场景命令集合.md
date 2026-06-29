@@ -4,11 +4,10 @@ tags:
   - 研发工具
 categories:
   - 研发工具笔记
-cover: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1280'
-description: >-
-  git 常用场景命令集合
+cover: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1280
+description: git 常用场景命令集合
 katex: false
-mermaid: false
+mermaid: true
 mathjax: false
 abbrlink: 40921
 date: 2026-6-27 10:00:00
@@ -255,3 +254,9 @@ squash d425g6h 修复typo2       <--- 已经是 squash
 | --------------------------- | --------------------------- |
 | `squash a1b2c3d` 放在第一行      | 第一个提交没有"上一个"可合并，会报错         |
 | 以为 `d425g6h` 会合并给 `e4f5g6h` | 错，它只合并给它**紧邻上面的** `i7j8k9l` |
+
+
+
+
+
+
