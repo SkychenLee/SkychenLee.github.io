@@ -7,10 +7,8 @@ tags:
   - DeepSpeed
 categories:
   - AI Infra
-cover: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1280'
-description: >-
-  本文介绍大模型训练中常用的分布式训练方案，从 PyTorch 原生的 DataParallel/DistributedDataParallel 到
-  DeepSpeed ZeRO 优化。
+cover: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1280
+description: 本文介绍大模型训练中常用的分布式训练方案，从 PyTorch 原生的 DataParallel/DistributedDataParallel 到 DeepSpeed ZeRO 优化。
 katex: false
 mermaid: false
 mathjax: false
