@@ -15,7 +15,7 @@
               "state": {
                 "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "git 常用场景命令集合"
@@ -165,7 +165,8 @@
               "title": "git 常用场景命令集合 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -182,20 +183,22 @@
       "bases:新建数据库": false
     }
   },
-  "active": "70771ed5e4a55e5f",
+  "active": "32ae7b426690c42c",
   "lastOpenFiles": [
+    "node_modules/ms/license.md",
+    "node_modules/ws/README.md",
+    "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+    "source/projects/index.md",
+    "source/tags/index.md",
+    "source/about/index.md",
+    "source/categories/index.md",
     "scaffolds/draft.md",
     "public/categories/研发工具笔记",
     "scaffolds/post.md",
     "scaffolds/page.md",
     "source/_posts/ai-infra/distributed-training-intro.md",
-    "source/_posts/研发工具笔记/git 常用场景命令集合.md",
-    "source/categories/index.md",
     "README.md",
     "source/develop",
-    "source/projects/index.md",
-    "source/tags/index.md",
-    "source/about/index.md",
     "source/_posts/java/jvm-gc-tuning.md",
     "source/_posts/研发工具笔记",
     "未命名",
