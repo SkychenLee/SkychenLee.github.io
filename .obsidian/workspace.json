@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scaffolds/post.md",
-                "mode": "source",
-                "source": false
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "post"
+              "title": "git 常用场景命令集合"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scaffolds/post.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "post 的反向链接列表"
+              "title": "git 常用场景命令集合 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scaffolds/post.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "post 的出链列表"
+              "title": "git 常用场景命令集合 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scaffolds/post.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "post 的大纲"
+              "title": "git 常用场景命令集合 的大纲"
             }
           }
         ],
@@ -185,21 +185,22 @@
   },
   "active": "32ae7b426690c42c",
   "lastOpenFiles": [
-    "source/TypeScript学习/index.md",
-    "scaffolds/post.md",
-    "source/projects/index.md",
-    "scaffolds/page.md",
+    "source/_posts/leetcode/dp-intro.md",
     "source/_posts/java/jvm-gc-tuning.md",
     "source/_posts/研发工具笔记/git 常用场景命令集合.md",
     "source/_posts/ai-infra/distributed-training-intro.md",
     "source/tags/index.md",
+    "source/categories/index.md",
+    "scaffolds/post.md",
+    "source/TypeScript学习/index.md",
+    "source/projects/index.md",
+    "scaffolds/page.md",
     "scaffolds/draft.md",
     "source/TypeScript学习",
     "README.md",
     "source/about/index.md",
     "node_modules/ms/license.md",
     "node_modules/ws/README.md",
-    "source/categories/index.md",
     "public/categories/研发工具笔记",
     "source/develop",
     "source/_posts/研发工具笔记",

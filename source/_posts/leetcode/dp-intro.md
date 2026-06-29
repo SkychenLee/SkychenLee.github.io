@@ -7,7 +7,7 @@ tags:
   - 题解
 categories:
   - LeetCode
-cover: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1280'
+cover: https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1280
 description: 动态规划是 LeetCode 面试高频考点。本文从最简单的斐波那契数列开始，逐步过渡到经典的 0-1 背包问题。
 katex: true
 mermaid: false
