@@ -52,7 +52,7 @@ social:
 favicon: /img/favicon.ico
 
 avatar:
-  img: https://api.dicebear.com/9.x/fun-emoji/svg?seed=SkychenLee
+  img: https://images.unsplash.com/photo-1518770660439-4636190af475?w=256&h=256&fit=crop
   effect: true
 
 disable_top_img: false
