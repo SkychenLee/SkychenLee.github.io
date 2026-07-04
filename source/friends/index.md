@@ -12,7 +12,7 @@ comments: true
 
 **[TerryLee's Blog](https://skychenlee.github.io)**
 
-![avatar](https://api.dicebear.com/9.x/bottts/svg?seed=SkychenLee)
+![avatar](https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=256&h=256&fit=crop&crop=faces)
 
 AI Infra / Java / Algorithms
 
