@@ -1,3 +1,13 @@
+---
+title: OpenSpec使用
+date: 2026-07-04 18:07:30
+tags:
+categories:
+  - Agent编程
+---
+
+
+
 # OpenSpec 使用手册
 
 基于项目的实践经验总结。
