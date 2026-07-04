@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/Agent编程/OpenSpec使用.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OpenSpec使用"
+              "title": "git 常用场景命令集合"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/Agent编程/OpenSpec使用.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "OpenSpec使用 的反向链接列表"
+              "title": "git 常用场景命令集合 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/Agent编程/OpenSpec使用.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "OpenSpec使用 的出链列表"
+              "title": "git 常用场景命令集合 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/Agent编程/OpenSpec使用.md",
+                "file": "source/_posts/研发工具笔记/git 常用场景命令集合.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "OpenSpec使用 的大纲"
+              "title": "git 常用场景命令集合 的大纲"
             }
           }
         ],
@@ -185,8 +185,8 @@
   },
   "active": "32ae7b426690c42c",
   "lastOpenFiles": [
-    "source/_posts/ai-infra/distributed-training-intro.md",
     "source/_posts/Agent编程/OpenSpec使用.md",
+    "source/_posts/ai-infra/distributed-training-intro.md",
     "source/_posts/研发工具笔记/git 常用场景命令集合.md",
     "source/_posts/OpenSpec使用",
     "db.json",

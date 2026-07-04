@@ -4,7 +4,6 @@ tags:
   - 研发工具
 categories:
   - 研发工具笔记
-cover: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1280
 description: git 常用场景命令集合
 katex: false
 mermaid: true
