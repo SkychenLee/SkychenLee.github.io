@@ -255,8 +255,15 @@ squash d425g6h 修复typo2       <--- 已经是 squash
 | `squash a1b2c3d` 放在第一行      | 第一个提交没有"上一个"可合并，会报错         |
 | 以为 `d425g6h` 会合并给 `e4f5g6h` | 错，它只合并给它**紧邻上面的** `i7j8k9l` |
 
+# 场景3、添加远程仓库并从远程仓库选一个分支新建本地分支
 
+git fetch origin develop
 
+git log origin/develop --oneline -5
+
+git checkout -b 自定义分支名 origin/develop
+
+git branch -r
 
 
 

@@ -52,7 +52,7 @@ social:
 favicon: /img/favicon.ico
 
 avatar:
-  img: https://github.com/SkychenLee.png
+  img: https://api.dicebear.com/9.x/bottts/svg?seed=SkychenLee
   effect: true
 
 disable_top_img: false
