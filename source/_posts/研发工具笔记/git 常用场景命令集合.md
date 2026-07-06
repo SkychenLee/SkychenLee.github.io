@@ -176,11 +176,13 @@ squash d425g6h 修复typo2
 ### 1. 你的指令序列
 
 text
-
+```bash
 pick a1b2c3d 第一次实现功能    <--- 第1个（基准）
 squash e4f5g6h 修复typo       <--- 第2个（合并给第1个）
 pick i7j8k9l 添加单元测试      <--- 第3个（独立保留）
 squash d425g6h 修复typo2      <--- 第4个（合并给第3个）
+```
+
 
 ---
 
@@ -237,13 +239,13 @@ X(功能+修复typo) ← Y(测试+修复typo2)
 
 如果你想把这 4 个全部合并成 **1 个**提交，应该改成：
 
-text
-
+```bash
 pick a1b2c3d 第一次实现功能
 squash e4f5g6h 修复typo
 squash i7j8k9l 添加单元测试    <--- 把 pick 改成 squash
 squash d425g6h 修复typo2       <--- 已经是 squash
 
+```
 这样就是链式合并：B→A，C→(A+B)，D→(A+B+C)，最终 4 个变 1 个。
 
 ---
@@ -255,8 +257,10 @@ squash d425g6h 修复typo2       <--- 已经是 squash
 | `squash a1b2c3d` 放在第一行      | 第一个提交没有"上一个"可合并，会报错         |
 | 以为 `d425g6h` 会合并给 `e4f5g6h` | 错，它只合并给它**紧邻上面的** `i7j8k9l` |
 
-# 场景3、添加远程仓库并从远程仓库选一个分支新建本地分支
+---
 
+# 场景3、添加远程仓库并从远程仓库选一个分支新建本地分支
+```bash
 git fetch origin develop
 
 git log origin/develop --oneline -5
@@ -264,6 +268,103 @@ git log origin/develop --oneline -5
 git checkout -b 自定义分支名 origin/develop
 
 git branch -r
+```
+
+---
+
+# 场景4、在一个远程仓下工作，不fork新仓，合入代码
+```bash
+git clone 远程仓
+
+git checkout -b 你自己起的分支名 origin  你的目标分支
+
+git add . 
+git commit    # tijiao daima 
+
+git push origin 你自己起的分支名:你的目标分支  #冒号一定要加，要不然
+
+```
+: 解释
+- 这个冒号是 Git 推送语法中最核心的**映射分隔符**，它的格式是：
+
+`git push <远程仓库名> <本地源>:<远程目标>`
+
+针对你的命令 `git push origin main:remote-memory-dev-optimization-hub`，我来拆解说明：
+
+### 1. 加上冒号（你的命令）
+
+**作用**：将**本地的 `main` 分支**推送到**远程的 `remote-memory-dev-optimization-hub` 分支**。
+
+- 它允许**本地分支名**和**远程分支名****不一致**。
+    
+- 如果远程没有 `remote-memory-dev-optimization-hub` 这个名字，Git 会自动在远程仓库创建它。
+    
+- **后果**：远程仓库会多出一个叫 `remote-memory-dev-optimization-hub` 的分支，但这个分支里面的代码内容，是你本地 `main` 分支的代码。
+    
+
+### 2. 不加冒号
+
+如果你执行 `git push origin remote-memory-dev-optimization-hub`（省略冒号和后面的部分），Git 会采用**同名匹配**规则：
+
+- **作用**：将本地的 `remote-memory-dev-optimization-hub` 分支推送到远程同名的分支。
+# 场景5、upstream, 你想把本地分支和远程分支建立关系，每次push 或pull不用指定origin
+
+以及建立好的关系查看命令
+```bash
+git branch -vv
+```
+
+### 1. 如何设置 Upstream（两种方式）
+
+- **方式一：推送时直接建立（最常用）**  
+    使用 `-u` 参数（`--set-upstream` 的简写），在第一次推送时顺手绑定：
+
+    
+    # 假设你在本地的 main 分支，想推到远程的 remote-memory-dev-optimization-hub
+    git push -u origin main:remote-memory-dev-optimization-hub
+    
+    **执行后**：代码推送到远程该分支，并且你本地的 `main` 分支会自动将远程的 `remote-memory-dev-optimization-hub` 设置为它的上游。
+    
+- **方式二：本地已有分支，单独绑定**  
+    如果你本地分支已经存在，且远程分支也创建好了，可以用该命令单独建立关联（不推送代码）：
+    
+    bash
+    
+    git branch --set-upstream-to=origin/remote-memory-dev-optimization-hub main
+    # 或者如果当前就在 main 分支上，可以简写：
+    git branch --set-upstream-to=origin/remote-memory-dev-optimization-hub
+    
+
+### 2. 如何查看 Upstream 是否绑定了
+
+执行以下命令查看分支跟踪状态：
+
+```bash
+git branch -vv
+
+输出示例：
+
+text
+
+* main    a1b2c3d [origin/remote-memory-dev-optimization-hub] 最新提交信息
+
+方括号 `[...]` 里显示的内容，就是当前分支绑定的上游分支。如果没有任何显示，说明未绑定。
+```
 
 
+
+### 3. 建立 Upstream 后的实际好处（日常使用）
+
+**绑定前（繁琐）**：
+```bash
+git pull origin main:remote-memory-dev-optimization-hub
+git push origin main:remote-memory-dev-optimization-hub
+
+**绑定后（极简）**：
+
+bash
+
+git pull   # 自动从绑定的远程分支拉取合并
+git push   # 自动推送到绑定的远程分支
+```
 
