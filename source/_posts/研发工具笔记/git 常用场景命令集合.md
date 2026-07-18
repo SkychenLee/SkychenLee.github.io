@@ -368,3 +368,31 @@ git pull   # 自动从绑定的远程分支拉取合并
 git push   # 自动推送到绑定的远程分支
 ```
 
+# 场景6、pull 代码的时候发现命令行打出faster forward
+
+fast-forward和no-fast-forward两种模式只会在merge的时候出现。
+
+**fast-forward出现的两种情况**
+
+1. git push 和 git pull 远程分支与本地分支合并
+
+2. git merge branch 本地两个分支进行合并
+
+**fast-forward**
+
+merge之后不会出现新的commit对象，分支的合并线是一条直线，被合并的分支，没有分叉，会丢失，再看不到该分支历史。
+
+**no-fast-forward**
+
+merge之后会出现一个merge commit对象，分支的合并线在主干外出现一条分叉，叉出去，又叉回来，在merge节点处合并为主干。
+
+**git push出现reject的情况**
+
+本地的最后commit与远端的不一致，导致无法对接，reject。
+
+对于已经push的commit，如果在本地再次修改，例如 git commit --amend或者git rebase -i修改，则push的时候会出现reject。
+
+远程的commit在本地已经没有了，冲突了，如果没人拉取此commit，则可以git push -f，强制删除无用的commit，但没人拉取不可知。
+
+所以，已经push的commit，只能用revert来修改commit，即新提交一条commit。
+
